@@ -8,6 +8,16 @@ Most recent revision:
 <html lang="en">
 <head>
 <title> Contact Us </title>
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+<style>
+section {
+text-align: center;
+}
+
+label{
+font-weight: bold;
+}
+</style>
 </head>
 
 <body>
@@ -15,17 +25,17 @@ Most recent revision:
 <h1> America's Best Cuisine </h1>
 </header>
 
+<article>
+
 <nav>
-<hr />
+
 <p><a href="homepage.html">Home</a></p>
 <p><a href="Menu.html">Menu</a></p>
 <p><a href="contact.html">Contact Us</a></p>
-<hr />
+<div class="clear-float"></div>
 </nav>
 
-<article>
-<form action="submit.html" method="POST">
-
+<section style="margin-top: 20px; background-color: #808080;">
 <label for="name">Name:</label>
 <input type="text" id="name" name="name"> <br/>
 <p></p>
@@ -52,12 +62,12 @@ Most recent revision:
 <textarea id="info" name="info"></textarea>
 <br />
 <p></p>
-Have you been to the restaurant?
+<label>Have you been to the restaurant?</label>
 <input type="radio" name="answer" value="NO" checked />No
 <input type="radio" name"answer" value="YES" />Yes
 <br />
 <p></p>
-Best days to contact you: 
+<label>Best days to contact you:</label>
 <input type="checkbox" name="day" value="M" />M
 <input type="checkbox" name="day" value="T" />T
 <input type="checkbox" name="day" value="W" />W
@@ -68,7 +78,7 @@ Best days to contact you:
 
 <input type="submit" name="submit" value="Send Request">
 </form>
-
+</section>
 
 
 
