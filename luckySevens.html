@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucky Sevens</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="luckySevens.js"></script>
+	<style>
+	body {
+	text-align: center;
+	#results {
+	text-align: center;
+	}
+
+	</style>
+</head>
+
+<body onload="hideResults()">
+
+    
+
+<div id="gameDiv">
+    <h1>Lucky Sevens</h1>
+    <span>Starting Bet:<input type="number" name="Starting Bet" id="betInput" placeholder="$0.00"></span>
+        <br/>
+            <button onclick="play()" id="playButton">Play</button>
+        </form>
+    </div>
+
+    
+
+    <div id="results">
+        <table id ="center" border = 1 align="center">
+        <caption><span align="center">Results</span></caption>
+		<hr />
+            <tr>
+                <th>Starting Bet</th>
+                <th id="resultsBet"></th>
+            </tr>
+            <tr>
+                <td>Total Rolls Before Going Broke</td>
+                <td id="resultsRollCounter"></td>
+            </tr>
+            <tr>
+                <td>Highest Amount Won: </td>
+                <td id="resultsHighestHeld"></td>
+            </tr>
+            <tr>
+                <td>Roll Count at Highest Amount Won: </td>
+                <td id="resultsRollsFromHighest"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
