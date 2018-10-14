@@ -1,0 +1,45 @@
+header, footer {
+
+	background-color: #9ef3c1;
+	color: #59596b;
+	height: 100px;
+	text-align: center;
+	
+}
+header {
+	padding: 30px 10px 20px 10px;
+}
+
+   
+h1 {
+	font-size: 2.5em;
+	font-family: papyrus, fantasy;
+}
+ 
+nav a {
+  background-color: #DEB887;
+  color: #A52A2A;
+    
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+ text-align: center;
+display: block;
+margin: 0px 15px 30px 15px;
+width: 100px;
+float: left;
+}
+.clear-float {
+clear:both;
+}
+
+nav a:visited {
+    color: #4B0082;
+}
+nav a:hover {
+font-weight: bold;
+}
+
+body {
+	text-align: center;
+	font-family: cursive;
+}
